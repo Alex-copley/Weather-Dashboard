@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
+html,
+body {
+    height: 100%;
+}
+
 header {
     padding-top: 1em;
 }
 
 main {
+    height: 100%;
     background-color: rgba(0, 0, 0, .72);
 }
 
@@ -86,7 +92,6 @@ main {
     border-radius: 5px;
 }
 
-/* Tablets and Smaller */
 @media screen and (max-width: 768px) {
     body {
         width: 90%;
@@ -114,9 +119,12 @@ main {
     .forecast-item-body {
         text-align: left;
     }
+
+    #search-panel {
+        height: 60vh;
+    }
 }
 
-/* Mobile Phones and Smaller */
 @media screen and (max-width: 575px) {
     #current-weather-data {
         flex-direction: column;
