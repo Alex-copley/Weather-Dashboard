@@ -2,12 +2,11 @@
 
 Weather-Dashboard is used to grab the weather of any given US city by using weatherAPI's
 
-
 !How to View
 
 Click on the below link to access the Weather Dashboard
 
-https://hrsautomation20.github.io/weather_dashboard/
+https://alex-copley.github.io/Weather-Dashboard/
 
 ##Usage/Examples
 On the landing page, Type desired city name and click search icon or press enter
