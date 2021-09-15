@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Author: H. Rola">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <main>
+        <div id="search-panel">
+            <div class="uk-container" id="search-form-container">
+                <h3 class="uk-heading-line uk-text-center uk-text-bold uk-text-warning h3text"><span>Search</span></h3>
+                <div class="uk-card-default uk-card uk-card-body">
+                    <form class="uk-search uk-search-default uk-width-1-1">
+                        <button class="uk-search-icon-flip" uk-search-icon id="search-button"></button>
+                        <input class="uk-search-input" type="search" placeholder="Search for a location" id="search-input">
+                    </form>
+                </div>
+            </div>
+            <div class="uk-container" id="search-history-container">
+                <h3 class="uk-heading-line uk-text-center uk-text-bold uk-text-warning h3text1" style="display:none" id="search-history-title"><span>Search History</span></h3>
+                <div class="uk-flex-column uk-flex" id="search-history-items"></div>
+                <button class="uk-button uk-button-secondary uk-align-center"id="clear-btn"><span uk-icon="icon: trash"></span> Clear History</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>

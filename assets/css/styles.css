@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+header {
+    padding-top: 1em;
+}
+
+main {
+    background-color: rgba(0, 0, 0, .72);
+}
