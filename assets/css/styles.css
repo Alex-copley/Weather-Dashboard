@@ -7,3 +7,128 @@ header {
 main {
     background-color: rgba(0, 0, 0, .72);
 }
+
+.h1text {
+    background-color: rgba(0, 0, 0, .72);
+    padding-bottom: 15px;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+.h3text,
+.h3text1,
+.h3text2,
+.h3text3 {
+    font-weight: bolder;
+    font-family: 'Staatliches', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.fa-temperature-low {
+    text-shadow: none;
+}
+
+.fa-temperature-high {
+    text-shadow: none;
+
+}
+
+.uk-search,
+.uk-search-icon {
+    color: black !important;
+    margin-bottom: 10px;
+}
+
+.uk-card-default {
+    border-radius: 5px;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 1rem !important;
+}
+
+#current-weather-city,
+#current-weather-date {
+    font-size: 2rem !important;
+    font-family: 'Staatliches', sans-serif;
+}
+
+#search-panel {
+    padding-bottom: 10px;
+    height: 84vh;
+}
+
+.uk-card {
+    margin: 10px;
+}
+
+.uk-card-body {
+    font-size: 14px;
+}
+
+.uk-container {
+    padding-top: 2em;
+}
+
+#clear-btn {
+    border-radius: 5px;
+}
+
+/* Tablets and Smaller */
+@media screen and (max-width: 768px) {
+    body {
+        width: 90%;
+        margin: auto;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .uk-card-body {
+        font-size: 16px;
+    }
+
+    #forecast {
+        flex-direction: column;
+    }
+
+    .forecast-item {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .forecast-item-body {
+        text-align: left;
+    }
+}
+
+/* Mobile Phones and Smaller */
+@media screen and (max-width: 575px) {
+    #current-weather-data {
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .forecast-item {
+        justify-content: space-between;
+    }
+
+    p {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+}
