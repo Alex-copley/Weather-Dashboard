@@ -3,6 +3,7 @@
 html,
 body {
     height: 100%;
+    margin: 0;
 }
 
 header {
@@ -63,6 +64,10 @@ main {
     border-radius: 5px;
     font-family: 'Staatliches', sans-serif;
     font-size: 1rem !important;
+}
+
+.uk-margin-top {
+    margin-top: 0px!important;
 }
 
 #current-weather-city,
